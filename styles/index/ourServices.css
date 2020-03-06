@@ -1,0 +1,315 @@
+
+/* phone*/
+@media(max-width:900px){
+
+    .our-services-wrapper{
+
+        margin-top: 2rem;
+        display: grid;
+
+        grid-template-columns: repeat(1,1fr);
+        gap: 1rem;
+
+        background-color: #FBFCFD;
+        align-items: middle;
+        text-align: center;
+
+        padding-left: 1rem;
+        padding-right: 1rem;
+
+        /*margin after services div*/
+        padding-bottom: 5rem;
+        
+        
+    }
+
+    /* 1st paragraph (our services)*/
+    .our-services-wrapper p:nth-child(1){
+
+        grid-row: 1;
+       
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+       
+        color: blue;
+        font-weight: 500;
+
+    }
+  
+    /* 1st h1 (bigger text after the para)*/
+    .our-services-wrapper h1:first-of-type{
+       
+        grid-row: 2;
+        color: #5A5454;
+        font-size: 2rem;
+        font-weight: 400;
+        padding-bottom: 2rem;
+
+    }
+
+    /* text before cardboxes*/
+    .our-services-text {
+        grid-row: 3;
+        padding-bottom: 2rem;
+        color: #747474;
+        
+    }
+
+    /*service cards 1-6 config*/
+    .service-card-1{
+         
+        grid-row: 4;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(251,186,119,1) 0%, rgba(223,168,113,1) 100%);
+    
+    }
+
+    .service-card-2{
+        grid-row: 5;
+        
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(65,234,227,1) 0%, rgba(34,147,183,1) 100%);
+        
+    }
+
+    .service-card-3{
+        
+        grid-row: 6;
+        background: rgb(14,0,255);
+        background: linear-gradient(0deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(70,56,100,1) 0%, rgba(105,82,144,1) 100%);
+        
+    }
+
+    .service-card-4{
+         
+        grid-row: 7;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(67,134,210,1) 0%, rgba(9,98,197,1) 100%); 
+    
+    }
+
+    .service-card-5{
+       
+        grid-row: 8;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(165,162,246,1) 0%, rgba(86,79,214,1) 100%);
+        
+    }
+
+    .service-card-6{
+        
+       grid-row: 9;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(255,128,136,1) 0%, rgba(152,65,65,1) 100%);
+    }
+
+    /*config for all cardboxes*/
+    .service-card-image{
+
+        width: 5%;
+        margin: 0 auto;
+        padding-top: 2rem;
+
+    }
+
+    .service-card-title{
+
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+
+    .service-card-text{
+
+        color: white;
+        font-size: 0.75rem;
+        margin: 1rem;
+         
+    }
+
+    /*card buttons and animation on hover*/
+    .service-card-button{
+
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+        padding: 1rem 2rem 1rem 2rem;
+        border-radius: 3rem;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+       
+    }
+
+    .service-card-button:hover{
+         
+        background-color: #FBFCFD;
+        color: black;
+        transition: ease-in 0.5s;
+         
+    }
+    
+}
+
+/* Desktop and tablet */
+@media(min-width:900px){
+
+    .our-services-wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(7,1fr);
+        gap: 1.5rem;
+        background-color: #FBFCFD;
+        align-items: middle;
+        text-align: center;
+
+        /*margin after services div*/
+        padding-bottom: 5rem;
+        
+    }
+
+    /* 1st paragraph (our services)*/
+    .our-services-wrapper p:nth-child(1){
+
+        padding-top: 5rem;
+
+        grid-column: 3/6;
+        color: blue;
+        font-weight: 500;
+
+    }
+  
+    /* 1st h1 (bigger text after the para)*/
+    .our-services-wrapper h1:first-of-type{
+       
+        grid-column: 3/6;
+        color: #5A5454;
+        font-size: 3rem;
+        font-weight: 400;
+
+    }
+
+    /* text before cardboxes*/
+    .our-services-text {
+       
+        grid-column: 3/6;
+        color: #747474;
+        
+    }
+
+    /*service cards 1-6 config*/
+    .service-card-1{
+         
+        grid-column: 3/4;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(251,186,119,1) 0%, rgba(223,168,113,1) 100%);
+    
+    }
+
+    .service-card-2{
+       
+        grid-column: 4/5;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(65,234,227,1) 0%, rgba(34,147,183,1) 100%);
+        
+    }
+
+    .service-card-3{
+        
+        grid-column: 5/6;
+        background: rgb(14,0,255);
+        background: linear-gradient(0deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(70,56,100,1) 0%, rgba(105,82,144,1) 100%);
+        
+    }
+
+    .service-card-4{
+         
+        grid-column: 3/4;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(67,134,210,1) 0%, rgba(9,98,197,1) 100%); 
+    
+    }
+
+    .service-card-5{
+       
+        grid-column: 4/5;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(165,162,246,1) 0%, rgba(86,79,214,1) 100%);
+        
+    }
+
+    .service-card-6{
+        
+        grid-column: 5/6;
+        background: rgb(14,0,255);
+        background: linear-gradient(180deg, rgba(14,0,255,1) 0%, rgba(0,0,255,1) 0%, rgba(255,128,136,1) 0%, rgba(152,65,65,1) 100%);
+    }
+
+    /*config for all cardboxes*/
+    .service-card-image{
+
+        width: 33%;
+        margin: 0 auto;
+        padding-top: 2rem;
+
+    }
+
+    .service-card-title{
+
+        margin-top: 1rem;
+        color: white;
+        font-size: 1rem;
+        font-weight: 400;
+
+    }
+    .service-card-text{
+
+        color: white;
+        font-size: 0.75rem;
+        margin: 1rem;
+         
+    }
+
+    /*card buttons and animation on hover*/
+    .service-card-button{
+
+        border: 2px solid white;
+        color: white;
+        background: transparent;
+        padding: 1rem 2rem 1rem 2rem;
+        
+        border-radius: 3rem;
+        font-size: 0.9rem;
+        margin-bottom: 2rem;
+        font-weight: 400;
+        font-size: 0.75rem;
+        max-width: 100%;
+       
+    }
+    .service-card-button:hover{
+         
+        background-color: #FBFCFD;
+        color: black;
+        transition: ease-in 0.5s;
+         
+    }
+
+    /*animations for all cards*/
+    
+    div[class^="service-card"]:hover{
+
+        transform: scale(1.1);
+        transition: 0.25s;
+       
+    }
+      
+      
+   
+      
+      
+
+
+
+}
+

@@ -1,0 +1,320 @@
+
+/*phone*/
+@media (max-width:900px){
+
+    .what-they-say-section-wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        background-color: #0C0F32;
+        color: white;
+         
+        text-align: center;
+        gap: 0rem;
+        padding-bottom: 3rem;
+        padding-top: 5rem;
+    
+    }
+    
+    /*main title */
+    .what-they-say-title{
+    
+        
+        font-size: 2rem;
+        padding-top: 1rem;
+        font-weight: 400;
+    
+    }
+    /*subtitle*/
+    .what-they-say-subtitle{
+    
+        
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        color: rgb(148, 148, 148);
+    
+    }
+    
+    /*center image and grade underneth */
+    .what-they-say-center-image{
+    
+         
+        padding-top: 3rem;
+       
+        width: 128px;
+        margin: 0 auto;
+    
+    }
+    
+    .what-they-say-score-main{
+        
+        
+        background-color: #FF992E;
+         
+        margin: 0 auto;
+        color: white;
+         
+        border-radius: 3rem;
+        width: 24px;
+        padding: 0.5rem;
+          
+        z-index: 2;
+         
+    }
+    
+    .what-they-say-score-main > p{
+    
+        vertical-align: middle;
+        font-weight: 400;
+       
+    
+    }
+    
+    /*text underneath the image */
+    
+    .what-they-say-user-comment{
+    
+          
+        color: #D6D6D6;
+        margin: 2rem 1rem 0rem 1rem; 
+    }
+    
+    .what-they-say-user{
+        margin-top: 1rem;
+        font-weight: 400;
+        color: #8F8BFF;
+    
+    }
+    
+    .what-they-say-user-title{
+        margin-top: 1rem;
+        columns: #D6D6D6;
+    }
+    
+    /*line dash */
+    
+    .what-they-say-dash{
+         
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 2rem;
+         
+        border: 1px solid hsla(0, 0%, 100%, 0.11);
+    
+    }
+    
+    /*styles underneath the dash */
+    .what-they-say-learn-more-title{
+        margin-top: 2rem;
+        text-align: center;
+        color: rgb(148, 148, 148);
+    }
+    .what-they-say-learn-more-text{
+        margin: 1rem 2rem 1rem 2rem;
+        text-align: center;
+        font-size: 1.3rem;
+        color: white;
+        font-weight: 400;
+         
+    }
+    
+    /*button*/
+    .what-they-say-button-wave{
+     
+        max-height: 4rem;
+       
+        border: none;
+        color: white;
+        background-color: #3D37F1;
+        padding: 1rem 1rem 1rem 3.5rem;
+         
+        width: 128pxs;
+        margin:0 auto;
+        margin-top: 2rem;
+    
+        border-radius: 3rem;
+        background-image: url(../../assets/index/introButtonImage.png);
+        background-repeat: no-repeat;
+        background-position: 22%;
+        background-size: 1.75rem;
+         
+             
+    }
+    
+    .what-they-say-button-wave:hover{
+    
+        background-color: #2EE59D;
+        -webkit-box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        -moz-box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        color: #fff;
+       
+        transition: all 0.2s ease 0s;
+             
+    }
+
+
+}
+
+
+/*tablet and desktop*/
+@media(min-width:901px){
+
+    .what-they-say-section-wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(7, 1fr);
+        background-color: #0C0F32;
+        color: white;
+         
+        text-align: center;
+        gap: 1rem;
+        padding-bottom: 5rem;
+    
+    }
+    
+    /*main title */
+    .what-they-say-title{
+    
+         grid-row: 1;
+        grid-column: 3/6;
+        font-size: 2rem;
+        padding-top: 5rem;
+        font-weight: 400;
+    
+    }
+    /*subtitle*/
+    .what-they-say-subtitle{
+    
+        grid-row: 2;
+        grid-column: 3/6;
+        font-size: 1rem;
+        margin-top: 0.5rem;
+        color: rgb(148, 148, 148);
+    
+    }
+    
+    /*center image and grade underneth */
+    .what-they-say-center-image{
+    
+        grid-row: 3/6;
+        padding-top: 8rem;
+        grid-column: 3/6;
+        width: 128px;
+        margin: 0 auto;
+    
+    }
+    
+    .what-they-say-score-main{
+        grid-row: 5/6;
+        grid-column: 3/6;
+        background-color: #FF992E;
+         
+        margin: 0 auto;
+        color: white;
+         
+        border-radius: 3rem;
+        width: 24px;
+        padding: 0.5rem;
+          
+        z-index: 2;
+         
+    }
+    
+    .what-they-say-score-main > p{
+    
+        vertical-align: middle;
+        font-weight: 400;
+    
+    }
+    
+    /*text underneath the image */
+    
+    .what-they-say-user-comment{
+    
+        grid-row: 8;
+        grid-column: 3/6;
+        color: #D6D6D6;
+    
+    }
+    
+    .what-they-say-user{
+        grid-row: 9;
+        grid-column: 3/6;
+        font-weight: 400;
+        color: #8F8BFF;
+    
+    }
+    
+    .what-they-say-user-title{
+        grid-row: 10;
+        grid-column: 3/6;
+        columns: #D6D6D6;
+    }
+    
+    /*line dash */
+    
+    .what-they-say-dash{
+    
+        margin: 5rem 0rem 3rem 0rem;
+        grid-row: 11;
+        grid-column: 2/7;
+        border: 1px solid hsla(0, 0%, 100%, 0.11);
+    
+    }
+    
+    /*styles underneath the dash */
+    .what-they-say-learn-more-title{
+        grid-row: 12;
+        grid-column: 2/4;
+        text-align: left;
+        color: rgb(148, 148, 148);
+    }
+    .what-they-say-learn-more-text{
+        grid-row: 13;
+        grid-column: 2/4;
+        text-align: left;
+        font-size: 1.6rem;
+        color: white;
+        font-weight: 400;
+         
+    }
+    
+    /*button*/
+    .what-they-say-button-wave{
+    
+        grid-row: 12/14;
+        max-height: 4rem;
+        grid-column: 6/7;
+        border: none;
+        color: white;
+        background-color: #3D37F1;
+        padding: 1rem 1rem 1rem 3rem;
+         
+        width: 100%;
+        margin:0 auto;
+         
+    
+        border-radius: 3rem;
+        background-image: url(../../assets/index/introButtonImage.png);
+        background-repeat: no-repeat;
+        background-position: 22%;
+        background-size: 1.75rem;
+         
+             
+    }
+    
+    .what-they-say-button-wave:hover{
+    
+        background-color: #2EE59D;
+        -webkit-box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        -moz-box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        box-shadow: 0px 0px 78px -6px rgba(115,255,194,1);
+        color: #fff;
+       
+        transition: all 0.2s ease 0s;
+             
+    }
+}
+
+ 

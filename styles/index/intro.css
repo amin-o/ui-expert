@@ -1,0 +1,236 @@
+
+@media (max-width:900px){
+
+    .intro-section-wrapper{
+
+        /*space from header*/
+        padding-top: 2rem;
+
+        display: grid;
+        grid-template-columns: repeat(1,1fr);     
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+
+        
+
+    }
+
+    
+    .leftBoxIntro h1{
+       
+        color: #534D4D;
+        font-size: 2rem;
+        font-weight: 400;
+         
+
+    }
+
+    .leftBoxIntro p{
+        margin-top: 1rem;
+        font-weight: 300;
+
+    }
+
+    .leftBoxIntro input{
+
+        border: none;
+        color: white;
+        background-color: #3D37F1;
+        padding: 1rem 2rem 1rem 4rem;
+        border-radius: 3rem;
+        background-image: url(../../assets/index/introButtonImage.png);
+        background-repeat: no-repeat;
+        background-position: 20%;
+        background-size: 1.75rem;
+         
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        animation-duration: 2s;
+    }
+
+    .leftBoxIntro input:hover{
+        
+        background-color: #2EE59D;
+        box-shadow: 0px 2px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+        
+         
+        
+    }
+
+    .introImage{
+        
+         max-width: 50%;
+         margin: 0 auto;
+         
+        
+
+    }
+
+
+}
+
+/*medium screen*/
+@media(min-width:900px){
+
+    .intro-section-wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(12,1fr);     
+        gap: 1rem;
+        padding-bottom: 10rem;
+    
+    }
+    
+    .leftBoxIntro{
+    
+        grid-column: 3 / 8;
+        
+    }
+    
+    .leftBoxIntro h1{
+    
+        color: #534D4D;
+        font-size: 3.5rem;
+    
+    }
+    
+    .leftBoxIntro p{
+    
+        font-weight: 300;
+    
+    }
+    
+    .leftBoxIntro input{
+    
+        border: none;
+        color: white;
+        background-color: #3D37F1;
+        padding: 1rem 2rem 1rem 4rem;
+        border-radius: 3rem;
+        background-image: url(../../assets/index/introButtonImage.png);
+        background-repeat: no-repeat;
+        background-position: 20%;
+        background-size: 1.75rem;
+        margin-left: 2rem;
+
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        animation-duration: 0.75s;
+    
+    }
+    
+    .leftBoxIntro input:hover{
+         
+        background-color: #2EE59D;
+        box-shadow: 0px 2px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+       
+        
+    }
+    
+    .introImage{
+    
+        width: 100%;
+        grid-column:  8/12;
+    
+    }
+    
+}
+
+@media(min-width:1200px){
+
+    .intro-section-wrapper{
+
+        display: grid;
+        grid-template-columns: repeat(12,1fr);     
+        gap: 1rem;
+        padding-bottom: 10rem;
+    
+    }
+    
+    .leftBoxIntro{
+    
+        grid-column: 3 / 8;
+        
+    }
+    
+    .leftBoxIntro h1{
+    
+        color: #534D4D;
+        font-size: 5rem;
+    
+    }
+    
+    .leftBoxIntro p{
+    
+        font-weight: 300;
+    
+    }
+    
+    .leftBoxIntro input{
+    
+        border: none;
+        color: white;
+        background-color: #3D37F1;
+        padding: 1rem 2rem 1rem 4rem;
+        border-radius: 3rem;
+        background-image: url(../../assets/index/introButtonImage.png);
+        background-repeat: no-repeat;
+        background-position: 20%;
+        background-size: 1.75rem;
+        margin-left: 2rem;
+
+        -webkit-animation-name: slideInLeft;
+        animation-name: slideInLeft;
+        animation-duration: 0.75s;
+    
+    }
+    
+    .leftBoxIntro input:hover{
+         
+        background-color: #2EE59D;
+        box-shadow: 0px 2px 20px rgba(46, 229, 157, 0.4);
+        color: #fff;
+       
+        
+    }
+    
+    .introImage{
+    
+        width: 100%;
+        grid-column:  8/12;
+    
+    }
+    
+}
+
+
+/*intro css wave button animation*/
+
+@-webkit-keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  @keyframes slideInLeft {
+    from {
+      -webkit-transform: translate3d(-100%, 0, 0);
+      transform: translate3d(-100%, 0, 0);
+      visibility: visible;
+    }
+  
+    to {
+      -webkit-transform: translate3d(0, 0, 0);
+      transform: translate3d(0, 0, 0);
+    }
+  }
