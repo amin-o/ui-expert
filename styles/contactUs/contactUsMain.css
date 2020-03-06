@@ -116,6 +116,7 @@
     padding-top: 2rem;
     display: grid;
     grid-template-columns: repeat(12,1fr);
+       
     gap: 1rem;
     text-align: left;
     align-items: middle;
@@ -130,6 +131,7 @@
       grid-column: 6/11;
       grid-row: 2 / 6;
       width: 100%;
+      
       margin: 0 auto;
        
        
@@ -145,12 +147,12 @@
 
 
   .contact-us-main input{
-
+    max-height: 0.25rem;
     grid-column: 3/6;
-    padding: 1.5rem;
+    padding : 1.5rem;
     border: rgba(50, 50, 230, 0.233) solid 2px;
     background-color: rgba(240, 248, 255, 0.171);
-    border-radius: 2rem;
+    border-radius: 1rem;
     font-size: 1.25rem;
     color: #3b3b3b;
 
